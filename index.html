@@ -9,7 +9,8 @@
         <div id="log"></div>
         <script>
             let date = new Date();
-            document.getElementById("log").innerHTML = "Hello, user!";
-        </script>
+            document.getElementById("log").innerHTML = 
+		date.getDate() + "." + ( date.getMonth() + 1 ) + "." + date.getFullYear() + ".";
+	</script>
     </body>
 </html>
